@@ -73,3 +73,26 @@
     transform: scale(1.05);
     transition: 0.5s;
 }
+
+@media(max-width:1014px){
+    .services{
+        align-items: start;
+        gap: 70px;
+        margin: 20px 70px;
+    }
+    .services-title{
+        padding: 0;
+        font-size: 25px;
+    }
+    .services-format{
+        gap: 20px;
+        padding: 32px;
+    }
+    .services-format h2{
+        font-size: 25px;
+    }
+    .services-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}

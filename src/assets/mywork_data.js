@@ -1,4 +1,9 @@
 import project1_img from '../assets/project_1.jpg'
+import project2_img from '../assets/project_2.png'
+import project3_img from '../assets/project_3.png'
+import project4_img from '../assets/project_4.png'
+import project5_img from '../assets/project_5.png'
+import project6_img from '../assets/project_6.png'
 
 const mywork_data = [
     {
@@ -24,12 +29,12 @@ const mywork_data = [
     {
         w_no:5,
         w_name: "Performance Testing Project",
-        w_img: project4_img
+        w_img: project5_img
     },
     {
         w_no:6,
         w_name: "Mobile Development",
-        w_img: project4_img
+        w_img: project6_img
     }
 
 ];
