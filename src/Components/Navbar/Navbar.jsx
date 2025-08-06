@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 import './Navbar.css'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/Logo.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { IoClose } from "react-icons/io5";
 import { IoMenu } from "react-icons/io5";
