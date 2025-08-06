@@ -40,7 +40,7 @@ const Footer = () => {
                         <div className='footer-top-left-bottom-links'>
                             <p> <a href="https://www.linkedin.com/in/maryann-wanjiru-5b4487275/" target='_blank'> LinkedIn </a></p>
                             <p> <a href="https://github.com/Maryann-W" target='_blank'> GitHub </a></p>
-                            <p> <a href="/src/assets/Maryann Wanjiru - Resume.pdf" target='_blank'> Resume </a></p>
+                            <p> <a href="/Maryann Wanjiru - Resume.pdf" target='_blank'> Resume </a></p>
                         </div>
                     </div>
                 </div>
