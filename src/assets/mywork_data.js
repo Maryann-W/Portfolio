@@ -23,12 +23,12 @@ const mywork_data = [
     },
     {
         w_no:4,
-        w_name: "Automation Project",
+        w_name: "Automation",
         w_img: project4_img
     },
     {
         w_no:5,
-        w_name: "Performance Testing Project",
+        w_name: "Performance Testing",
         w_img: project5_img
     },
     {

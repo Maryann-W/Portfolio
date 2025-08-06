@@ -40,7 +40,7 @@ const Contact = () => {
             <div className="contact-section">
                 <div className="contact-left">
                     <h1>Let's talk</h1>
-                    <p>Feel free to reach out to me with any inquiries, questions, or opportunities. I'm always open to connecting with new people and discussing potential collaborations or projects. Your feedback is valuable to me, and I'm here to provide any additional information you may need. Don't hesitate to get in touch!</p>
+                    <p>Feel free to reach out with any questions or opportunities! I'm always open to connecting and exploring new ideas. Your feedback is welcome!</p>
                     <div className="contact-details">
                         <div className="contact-detail">
                             <FaMailBulk />

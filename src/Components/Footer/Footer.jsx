@@ -35,7 +35,14 @@ const Footer = () => {
             <div className="footer-top">
                 <div className="footer-top-left">
                     <img src={footer_logo} alt="" />
-                    <p>I'm Maryann Wanjiru, developer and QA engineer based in Kenya.</p>
+                    <div className='footer-top-left-bottom'>
+                        <p>I'm Maryann Wanjiru, developer and QA engineer based in Kenya.</p>
+                        <div className='footer-top-left-bottom-links'>
+                            <p> <a href="https://www.linkedin.com/in/maryann-wanjiru-5b4487275/" target='_blank'> LinkedIn </a></p>
+                            <p> <a href="https://github.com/Maryann-W" target='_blank'> GitHub </a></p>
+                            <p> <a href="/src/assets/Maryann Wanjiru - Resume.pdf" target='_blank'> Resume </a></p>
+                        </div>
+                    </div>
                 </div>
                 <form onSubmit={onSubmit} className="footer-top-right">
                     <div className="footer-email-input">
@@ -48,11 +55,11 @@ const Footer = () => {
             <hr />
             <div className="footer-bottom">
                 <p className="footer-bottom-left">© 2025 Maryann Wanjiru. All rights deserved.</p>
-                <div className="footer-bottom-right">
+                {/*<div className="footer-bottom-right">
                     <p>Term of Services</p>
                     <p>Privacy Policy</p>
                     <p>Connect with me</p>
-                </div>
+                </div>*/}
             </div>
 
         </div>

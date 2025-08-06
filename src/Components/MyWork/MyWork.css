@@ -1,4 +1,4 @@
-.mywork{
+.mywork {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,12 +6,14 @@
     gap: 50px;
     margin: 80px 170px;
 }
-.mywork-title{
+
+.mywork-title {
     position: relative;
     padding: 0px 30px;
     font-size: 22px;
     font-weight: 400;
 }
+
 .mywork-title::after {
     content: "";
     position: absolute;
@@ -19,31 +21,62 @@
     bottom: 0;
     width: 100%;
     height: 4px;
-    background: linear-gradient(90deg, #ff6ec4, #7873f5);
+    background: linear-gradient(90deg, #20E2D7 50%, #8A2BE2 100%);
     border-radius: 999px;
     transition: transform 0.3s ease;
     transform: scaleX(1);
     transform-origin: left;
 }
-.mywork-container{
+
+.mywork-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
 }
-.mywork-container img{
-    box-sizing: border-box;
+
+.work-item {
+    position: relative;
     width: 419px;
     height: 280px;
+    overflow: hidden;
+}
+
+.mywork-container img {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
     transition: 0.4s;
     cursor: pointer;
+    object-fit: cover;
 }
-.mywork-container img:hover{
+
+.work-item:hover {
     transform: scale(1.10);
-    border: 2px solid #ff00ff;
+    border: 2px solid #8A2BE2;
     border-radius: 10px;
     transition: 0.4s;
 }
-.mywork-showmore{
+
+.hover-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(138, 43, 226, 0.7);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.1;
+    transform: translateY(100%);
+    transition: 0.4s;
+}
+
+.work-item:hover .hover-text {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.mywork-showmore {
     display: flex;
     gap: 15px;
     border-radius: 50px;
@@ -55,27 +88,35 @@
     transition: 0.6s;
     cursor: pointer;
 }
-.mywork-showmore:hover{
+
+.mywork-showmore:hover {
     gap: 30px;
     transition: 0.6s;
 }
+.mywork a{
+    text-decoration: none;
+    color: white;
+}
 
-@media(max-width:1014px){
-    .mywork{
+@media(max-width:1014px) {
+    .mywork {
         gap: 50px;
         margin: 50px 70px;
         align-items: start;
     }
-    .mywork-title{
+
+    .mywork-title {
         padding: 0;
         font-size: 25px;
         font-weight: 400;
     }
-    .mywork-container{
+
+    .mywork-container {
         grid-template-columns: 1fr 1fr;
         gap: 30px;
     }
-    .mywork-container img{
+
+    .mywork-container img {
         width: 100%;
         height: 100%;
     }
